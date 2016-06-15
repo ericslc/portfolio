@@ -285,6 +285,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
+  color: white;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
@@ -299,6 +300,23 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+/*.service-box {
+    margin: 50px auto 0;
+    max-width: 400px;
+    height: 75px;
+    width: 100px;
+    overflow: hidden;
+}*/
+
+@media(min-width:992px) {
+    .service-box {
+        margin: 20px auto 0;
+    }
+}
+
+.service-box p {
+    margin-bottom: 0;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
